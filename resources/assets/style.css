@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* DARK BLUE : #07198c */
+
+.content{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.link{
+    border-bottom: 1px solid transparent;
+}
+.link:hover{
+    border-bottom: 2px solid white;
+    transition: 0.5s;
+    
+}
+
+.black-a-95{
+    /* background-color: rgba(3, 4, 87, 0.911); */
+    background-color: rgba(0, 0, 0, 0.711);
+}
+
+a.active{
+    background-color: rgb(239 68 68) !important;
+}
+@media (min-width: 768px) {
+    .content{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+
+.big{
+    background-size: cover;
+}
+@media (min-width: 768px) {
+    .content{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .big{
+        background-size: 60%;
+    }   
+}
+
+@media (min-width: 1024px) {
+    .content{
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+}
+
+
+
+
+
+@media (min-width: 668px) {
+    .mobile-menu{width:  60% !important;
+    }   
+}

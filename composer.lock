@@ -1,0 +1,163 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3821d1c5732ac1023637451f3e2757a2",
+    "packages": [
+        {
+            "name": "league/plates",
+            "version": "v3.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/plates.git",
+                "reference": "6d3ee31199b536a4e003b34a356ca20f6f75496a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/plates/zipball/6d3ee31199b536a4e003b34a356ca20f6f75496a",
+                "reference": "6d3ee31199b536a4e003b34a356ca20f6f75496a",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0|^8.0"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "^1.6",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\Plates\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Reinink",
+                    "email": "jonathan@reinink.ca",
+                    "role": "Developer"
+                },
+                {
+                    "name": "RJ Garcia",
+                    "email": "ragboyjr@icloud.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Plates, the native PHP template system that's fast, easy to use and easy to extend.",
+            "homepage": "https://platesphp.com",
+            "keywords": [
+                "league",
+                "package",
+                "templates",
+                "templating",
+                "views"
+            ],
+            "support": {
+                "issues": "https://github.com/thephpleague/plates/issues",
+                "source": "https://github.com/thephpleague/plates/tree/v3.4.0"
+            },
+            "time": "2020-12-25T05:00:37+00:00"
+        },
+        {
+            "name": "william-costa/database-manager",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/william-costa/database-manager.git",
+                "reference": "ed871363f27251a882b9e5dc036dcac566b271c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/william-costa/database-manager/zipball/ed871363f27251a882b9e5dc036dcac566b271c4",
+                "reference": "ed871363f27251a882b9e5dc036dcac566b271c4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WilliamCosta\\DatabaseManager\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "William Costa",
+                    "email": "canalwdev@gmail.com"
+                }
+            ],
+            "description": "A simple library for managing database connections, results pagination and building queries in PHP.",
+            "support": {
+                "issues": "https://github.com/william-costa/database-manager/issues",
+                "source": "https://github.com/william-costa/database-manager/tree/v0.1.0"
+            },
+            "time": "2021-03-19T18:51:35+00:00"
+        },
+        {
+            "name": "william-costa/dot-env",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/william-costa/dot-env.git",
+                "reference": "e5eb9b0384b57f2812215fab0e3853c16a4b368e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/william-costa/dot-env/zipball/e5eb9b0384b57f2812215fab0e3853c16a4b368e",
+                "reference": "e5eb9b0384b57f2812215fab0e3853c16a4b368e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WilliamCosta\\DotEnv\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "William Costa",
+                    "email": "canalwdev@gmail.com"
+                }
+            ],
+            "description": "A simple library for managing environment variables in PHP.",
+            "support": {
+                "issues": "https://github.com/william-costa/dot-env/issues",
+                "source": "https://github.com/william-costa/dot-env/tree/v0.1.0"
+            },
+            "time": "2021-03-19T19:28:14+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

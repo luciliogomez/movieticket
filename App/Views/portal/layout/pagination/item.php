@@ -1,0 +1,1 @@
+<a href="<?= $link ?>" class="<?= $active ?> px-2 bg-gray-800 rounded-sm hover:bg-red-400"><?= $item ?></a>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVTIC - HOME</title>
+    <link rel="stylesheet" href="<?=URL?>/resources/assets/tailwind.css">
+</head>
+<body class="">
+    <header class="w-full h-screen bg-right-top bg-no-repeat " style="background-image: url(img/capas/7.jpg)" >
+        <div class="w-full h-screen black-a-95 bg-black-900/[0.85] ">
+            <nav class="text-white w-full h-1/6 content py-6 flex justify-between items-center border-b border-gray-500">
+                <div class="logo">
+                    <h3 class="flex items-center justify-center">
+                        <figure>
+                            <img src="logo.png" alt="">
+                        </figure>
+                        <span class="font-semibold text-2xl">CINE<a href="#" class="text-red-500">TIC</a></span>
+                    </h3>
+                </div>
+                <ul class="flex justify-end space-x-8 font-semibold">
+                    <li class="link"><a href="#">HOME</a></li>
+                    <li class="link"><a href="#">FILMES</a></li>
+                    <li class="link"><a href="#">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="banner content font-semibold h-5/6 flex flex-col items-center justify-center ">
+                <h1 class=" text-7xl text-white text-center mb-2">RESERVE BILHETES PARA OS MELHORES <span class="text-cyan-400">FILMES</span></h1>
+                <p class="text-2xl text-gray-50">
+                    Fácil, Rápido e Seguro. Obtenha o seu bilhete hoje mesmo!
+                </p>
+            </div>
+        </div>
+    </header>
+    <div class="content w-full py-6 filter bg-gray-900">
+        <div>
+            <form action="" method="post" class="flex justify-center items-end space-x-4 mb-4">
+                <div class="input text-white flex flex-col">
+                    <label for="" class="mb-2 text-lg">Pesquise por filme</label>
+                    <input placeholder="Titulo do filme" type="text" class="rounded-md text-md px-4 py-2 text-gray-400 bg-gray-800 outline outline-0">
+                </div>
+                <div class="input text-white flex flex-col">
+                    <label for=""class="mb-2 text-lg">Genero</label>
+                    <select class="rounded-md text-md px-4 py-2 text-gray-400 bg-gray-800 outline outline-0">
+                        <option value="">Comedia</option>
+                        <option value="">Acção</option>
+                        <option value="">Drama</option>
+                    </select>
+                </div>
+                <div class="input text-white flex flex-col">
+                    <label for=""class="mb-2 text-lg">Cidade</label>
+                    <input type="text" class="rounded-md text-md px-4 py-2 text-gray-400 bg-gray-800 outline outline-0">
+                </div>
+                <div class="input text-white flex flex-col items-start justify-start ">
+                    <button type="submit" class="w-32 rounded-md text-md px-4 py-2 text-gray-200 bg-red-800 outline outline-0">Buscar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="last w-full content py-12 bg-black text-white">
+        <div class="flex justify-between items-center font-semibold mb-8">
+            <h3>Em Estreia</h3>
+            <a href="#" class="underline">Ver Todos</a>
+        </div>
+        <div class="flex justify-between space-x-8">
+            <article class="w-1/5">
+                <figure class="w-full mb-2">
+                    <img src="img/capas/3.jpg" class="w-full h-72" alt="">
+                </figure>
+                <h3 class="font-semibold text-lg">Top Gun - Maverick</h3>
+                <h5>2022</h5>
+            </article>
+            <article class="w-1/5">
+                <figure class="w-full mb-2">
+                    <img src="img/capas/2.jpg" class="w-full h-72" alt="">
+                </figure>
+                <h3 class="font-semibold text-lg">THOR - Love and Thunder</h3>
+                <h5>2022</h5>
+            </article>
+            
+            <article class="w-1/5">
+                <figure class="w-full mb-2">
+                    <img src="img/capas/6.jpg" class="w-full h-72" alt="">
+                </figure>
+                <h3 class="font-semibold text-lg">Adão Negro</h3>
+                <h5>2022</h5>
+            </article>
+            <article class="w-1/5">
+                <figure class="w-full mb-2">
+                    <img src="img/capas/5.jpg" class="w-full h-72" alt="">
+                </figure>
+                <h3 class="font-semibold text-lg">Minions - The Rise of Gru</h3>
+                <h5>2022</h5>
+            </article>
+        </div>
+    </div>
+
+    <div class="last w-full content py-12 bg-gray-800 text-white ">
+        <div class="flex justify-between items-center  font-semibold mb-8">
+            <h3>Últimos Lançamentos</h3>
+            <a href="#" class="underline">Ver Todos</a>
+        </div>
+        <div class="flex justify-start flex-wrap">
+            <article class="w-1/5 mr-10">
+                <figure class="w-full mb-2">
+                    <img src="img/capas/4.jpg" class="w-full h-72" alt="">
+                </figure>
+                <h3 class="font-semibold text-lg">Top Gun - Maverick</h3>
+                <h5>2022</h5>
+            </article>
+            <article class="w-1/5 mr-10">
+                <figure class="w-full mb-2">
+                    <img src="img/capas/8.jpg" class="w-full h-72" alt="">
+                </figure>
+                <h3 class="font-semibold text-lg">Top Gun - Maverick</h3>
+                <h5>2022</h5>
+            </article>
+            <article class="w-1/5 mr-10">
+                <figure class="w-full mb-2">
+                    <img src="img/capas/7.jpg" class="w-full h-72" alt="">
+                </figure>
+                <h3 class="font-semibold text-lg">Top Gun - Maverick</h3>
+                <h5>2022</h5>
+            </article>
+            <article class="w-1/5 mr-10">
+                <figure class="w-full mb-2">
+                    <img src="img/capas/9.jpg" class="w-full h-72" alt="">
+                </figure>
+                <h3 class="font-semibold text-lg">THOR - Love and Thunder</h3>
+                <h5>2022</h5>
+            </article>
+            
+            <article class="w-1/5 mr-10">
+                <figure class="w-full mb-2">
+                    <img src="img/capas/6.jpg" class="w-full h-72" alt="">
+                </figure>
+                <h3 class="font-semibold text-lg">Adão Negro</h3>
+                <h5>2022</h5>
+            </article>
+            <article class="w-1/5 mr-10">
+                <figure class="w-full mb-2">
+                    <img src="img/capas/3.jpg" class="w-full h-72" alt="">
+                </figure>
+                <h3 class="font-semibold text-lg">Minions - The Rise of Gru</h3>
+                <h5>2022</h5>
+            </article>
+            <article class="w-1/5 mr-10">
+                <figure class="w-full mb-2">
+                    <img src="img/capas/9.jpg" class="w-full h-72" alt="">
+                </figure>
+                <h3 class="font-semibold text-lg">Minions - The Rise of Gru</h3>
+                <h5>2022</h5>
+            </article>
+            <article class="w-1/5 mr-10">
+                <figure class="w-full mb-2">
+                    <img src="img/capas/10.jpg" class="w-full h-72" alt="">
+                </figure>
+                <h3 class="font-semibold text-lg">Minions - The Rise of Gru</h3>
+                <h5>2022</h5>
+            </article>
+        </div>
+    </div>
+
+    <footer class="text-center text-white bg-black content py-8" >
+        <h3>Powered By <a href="#" class="text-blue-500">Lucilio Gomes</a></h3>
+    </footer>
+</body>
+</html>

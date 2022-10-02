@@ -1,0 +1,12 @@
+{
+    "autoload":{
+        "psr-4":{
+            "App\\" : "App"
+        }
+    },
+    "require": {
+        "william-costa/dot-env": "^0.1.0",
+        "william-costa/database-manager": "^0.1.0",
+        "league/plates" :"3.*"
+    }
+}
