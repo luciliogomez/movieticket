@@ -20,7 +20,8 @@
 ## Link para testar o projecto:
 * https://movietickets.epizy.com
 
-## Credencial de acesso ao dashboard:
+## Acesso ao dashboard:
+* https://movietickets.epizy.com/adm/login
 * usuario: lucilio@gmail.com
 * senha: 12345
 
